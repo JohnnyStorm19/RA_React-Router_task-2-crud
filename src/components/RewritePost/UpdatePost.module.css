@@ -1,0 +1,54 @@
+.updatepost {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.updatepost__header {
+    display: flex;
+    align-items: center;
+
+    text-transform: uppercase;
+}
+
+.updatepost__title {
+    margin: 0 auto;
+}
+
+.link__back {
+    width: 40px;
+    height: 30px;
+    background-image: url('../../assets/left-arrow-svgrepo-com.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    position: absolute;
+    top: 0;
+    left: -50px;
+    transition: all .2s;
+}
+
+.link__back:hover {
+    transform: scale(1.1);
+}
+
+.updatepost__form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea[name=updatepost] {
+    resize: none;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+.updatepost__submitBtn {
+    background-color: teal;
+    color: aliceblue;
+}
+
+.updatepost__submitBtn:hover {
+    background-color: rgb(2, 188, 188);
+}

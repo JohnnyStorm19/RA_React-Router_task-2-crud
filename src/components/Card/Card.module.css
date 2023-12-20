@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #242424;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #242424ce;
+    color: #dfdfdf;
+}
+.link__back {
+  width: 40px;
+  height: 30px;
+  background-image: url("../../assets/left-arrow-svgrepo-com.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  position: absolute;
+  left: -50px;
+  transition: all 0.2s;
+}
+
+.link__back:hover {
+  transform: scale(1.1);
+}
+
+.card__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    text-transform: uppercase;
+}
+
+.card__title {
+    margin: 0;
+}

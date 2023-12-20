@@ -1,0 +1,17 @@
+.create__btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../assets/add-button-svgrepo-com.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    font-size: 2rem;
+    border-radius: 50%;
+
+    transition: all .5s ;
+}
+
+.create__btn:hover {
+    transform: scale(1.2);
+}
